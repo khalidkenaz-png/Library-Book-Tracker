@@ -12,10 +12,10 @@ public class Book {
     /**
      * Creates a new Book object with the given details
      * 
-     * @param title       the title of the book
-     * @param authorparam the author of the book
-     * @param isbn        the 13-digit ISBN of the book
-     * @param copies      the number of available copies must be positive
+     * @param title  the title of the book
+     * @param author the author of the book
+     * @param isbn   the 13-digit ISBN of the book
+     * @param copies the number of available copies must be positive
      * @param isbn
      * @param copies
      */
