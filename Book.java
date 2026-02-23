@@ -10,12 +10,12 @@ public class Book {
     private int copies;
 
     /**
-     * Creates a new Book object with the given details
+     * Creates a new Book with its details
      * 
-     * @param title       the title of the book
-     * @param authorparam the author of the book
-     * @param isbn        the 13-digit ISBN of the book
-     * @param copies      the number of available copies must be positive
+     * @param title       book title
+     * @param authorparam book author
+     * @param isbn        13-digit ISBN
+     * @param copies      number of copies must be positive
      * @param isbn
      * @param copies
      */
@@ -28,7 +28,7 @@ public class Book {
 
     /**
      * 
-     * @return the title of the book
+     * @return the book title
      */
     public String getTitle() {
         return title;
@@ -36,7 +36,7 @@ public class Book {
 
     /**
      * 
-     * @return the author of the book
+     * @return the author
      */
     public String getAuthor() {
         return author;
@@ -44,7 +44,7 @@ public class Book {
 
     /**
      * 
-     * @return the ISBN of the book
+     * @return the ISBN
      */
     public String getIsbn() {
         return isbn;
@@ -52,16 +52,16 @@ public class Book {
 
     /**
      * 
-     * @return the number of copies available
+     * @return the number of copies
      */
     public int getCopies() {
         return copies;
     }
 
     /**
-     * converts the book into a catalog line format
+     * converts this book into one line for the catalog file
      * 
-     * @return a string in the format title:author:isbn:copies
+     * @return string in format: title:author:isbn:copies
      */
     public String toCatalogLine() {
         return title + ":" + author + ":" + isbn + ":" + copies;

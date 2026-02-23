@@ -1,1 +1,3 @@
-[2026-02-21T03:29:56] INVALID LINE: "Test Book:Khalid:12345:3" - InvalidISBNException: ISBN must be exactly 13 digits, got: "12345"
+=[2026-02-21T03:29:56] INVALID LINE: "Test Book:Khalid:12345:3" - InvalidISBNException: ISBN must be exactly 13 digits, got: "12345"
+[2026-02-23T08:02:17] INVALID LINE: "paython Crach Course:Eric:9781718502703:0" - MalformedBookEntryException: Copies must be a positive integer, got: 0
+[2026-02-23T08:03:03] INVALID LINE: "paython Crach Course::9781718502703:0" - MalformedBookEntryException: Author field is empty
